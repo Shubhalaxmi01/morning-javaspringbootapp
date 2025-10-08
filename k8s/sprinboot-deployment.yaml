@@ -20,7 +20,7 @@ spec:
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: acr-auth
+      - name: acr-secret
 
 ---
 apiVersion: v1
