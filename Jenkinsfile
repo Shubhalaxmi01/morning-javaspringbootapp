@@ -7,7 +7,7 @@ pipeline {
         IMAGE_NAME  = "sprinbootapp"
         IMAGE_TAG  = "latest"
         ACR_NAME    = "luckyregistry1999"
-        ACR_LOGIN_SERVER = "luckregistry1999.azurecr.io"
+        ACR_LOGIN_SERVER = "luckyregistry1999.azurecr.io"
         FULL_IMAGE_NAME = "${ACR_LOGIN_SERVER}/${IMAGE_NAME}:${IMAGE_TAG}"
         TENANT_ID   = "60117ebd-eb05-49ef-ba78-e5b3fc98f8fc"
         RESOURCE_GROUP = "demo1"
